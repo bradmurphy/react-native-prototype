@@ -1,4 +1,4 @@
-#Fri Apr 13 17:02:14 EDT 2018
-base.0=/Users/murph/Documents/projects/ReactPrototype/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Mon Apr 16 10:36:18 EDT 2018
+base.0=/Users/murph/Documents/projects/react-native-prototype/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/murph/Documents/projects/ReactPrototype/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/Users/murph/Documents/projects/react-native-prototype/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
