@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import PushNotification from "react-native-push-notification";
 
-import PushController from "./PushController";
+import PushController from "../PushController";
 
 export default class App extends Component {
   constructor(props) {
