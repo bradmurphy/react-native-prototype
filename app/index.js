@@ -33,15 +33,13 @@ export default class App extends Component {
     if (appState === "background") {
       const { seconds } = this.state;
       let date = new Date(Date.now() + seconds * 1000);
+      let message = `${second} second notification.`;
 
       if (Platform.OS === "ios") {
         date = date.toISOString();
       }
 
-      PushNotification.localNotificationSchedule({
-        message: "You have a new notification!",
-        date: date
-      });
+      PushNotification.localNotificationSchedule({ message, date });
     }
   }
 
