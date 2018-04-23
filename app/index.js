@@ -33,7 +33,7 @@ export default class App extends Component {
     if (appState === "background") {
       const { seconds } = this.state;
       let date = new Date(Date.now() + seconds * 1000);
-      let message = `${second} second notification.`;
+      let message = `${seconds} second notification.`;
 
       if (Platform.OS === "ios") {
         date = date.toISOString();
